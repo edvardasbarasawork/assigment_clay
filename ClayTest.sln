@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.API", "src\ClayTest.API\ClayTest.API.csproj", "{CB280F1A-4E5D-486C-BAA0-6ADD6A024819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99B6BF27-8004-4713-84CE-CBEDD40D1F8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.Application", "src\ClayTest.Application\ClayTest.Application.csproj", "{BFE3E146-4A80-45A6-9B15-04547C286503}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.Core", "src\ClayTest.Core\ClayTest.Core.csproj", "{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.DataAccess", "src\ClayTest.DataAccess\ClayTest.DataAccess.csproj", "{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{3AA5523F-D90D-42E4-9289-994DE50F25B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D82B8B69-6DEB-4348-BB89-0C5BDD5EE2B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.Migrations", "infrastructure\ClayTest.Migrations\ClayTest.Migrations.csproj", "{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AD18E39-A323-4EDF-8570-259DB754A58C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClayTest.Application.UnitTests", "tests\ClayTest.Application.UnitTests\ClayTest.Application.UnitTests.csproj", "{D09203FD-0DDD-461F-B2FD-F677DAC2621F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClayTest.Core.UnitTests", "tests\ClayTest.Core.UnitTests\ClayTest.Core.UnitTests.csproj", "{2CD486E2-796F-44F3-BCC6-87EB88536D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClayTest.API.IntergrationTests", "ClayTest.API.IntergrationTests\ClayTest.API.IntergrationTests.csproj", "{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB280F1A-4E5D-486C-BAA0-6ADD6A024819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB280F1A-4E5D-486C-BAA0-6ADD6A024819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB280F1A-4E5D-486C-BAA0-6ADD6A024819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB280F1A-4E5D-486C-BAA0-6ADD6A024819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE3E146-4A80-45A6-9B15-04547C286503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE3E146-4A80-45A6-9B15-04547C286503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE3E146-4A80-45A6-9B15-04547C286503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE3E146-4A80-45A6-9B15-04547C286503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09203FD-0DDD-461F-B2FD-F677DAC2621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09203FD-0DDD-461F-B2FD-F677DAC2621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09203FD-0DDD-461F-B2FD-F677DAC2621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09203FD-0DDD-461F-B2FD-F677DAC2621F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD486E2-796F-44F3-BCC6-87EB88536D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD486E2-796F-44F3-BCC6-87EB88536D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD486E2-796F-44F3-BCC6-87EB88536D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD486E2-796F-44F3-BCC6-87EB88536D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB280F1A-4E5D-486C-BAA0-6ADD6A024819} = {99B6BF27-8004-4713-84CE-CBEDD40D1F8B}
+		{BFE3E146-4A80-45A6-9B15-04547C286503} = {99B6BF27-8004-4713-84CE-CBEDD40D1F8B}
+		{7F8E40AA-3753-404D-BD7A-9E5CEE29C5BC} = {99B6BF27-8004-4713-84CE-CBEDD40D1F8B}
+		{BBA8E194-2C5E-44F0-AD19-53B7D356D7D4} = {99B6BF27-8004-4713-84CE-CBEDD40D1F8B}
+		{8CA49BBA-AD2E-4181-A180-DA56B6DF84C4} = {3AA5523F-D90D-42E4-9289-994DE50F25B8}
+		{D09203FD-0DDD-461F-B2FD-F677DAC2621F} = {D82B8B69-6DEB-4348-BB89-0C5BDD5EE2B7}
+		{2CD486E2-796F-44F3-BCC6-87EB88536D79} = {D82B8B69-6DEB-4348-BB89-0C5BDD5EE2B7}
+		{47A80301-EBF2-4C35-A6DE-7C0EE8A089B7} = {D82B8B69-6DEB-4348-BB89-0C5BDD5EE2B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {797A540E-DD44-424D-8298-A90D9BE1E2EF}
+	EndGlobalSection
+EndGlobal
